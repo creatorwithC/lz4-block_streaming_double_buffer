@@ -17,8 +17,9 @@ size_t read_bin(FILE* fp,void* array,size_t arrayBytes){return fread(array,1,arr
 
 FILE* read;
 FILE* write;
-char file[]="C:\\Users\\kostas\\Documents\\email.txt";
-char file_com[]="C:\\Users\\kostas\\Documents\\email.txt.lz4";
+//examples of full paths
+char file[]="C:\\Users\\nik\\Documents\\email.txt";
+char file_com[]="C:\\Users\\nik\\Documents\\email.txt.lz4";
 
 
 //compress function
